@@ -16,5 +16,21 @@
 
 ![image](https://github.com/user-attachments/assets/7d6523ec-d51f-4efc-8c49-1b41d74a2420)
 
+3- Display your current shell name : 
+
+    Taghreed20@Ubuntu5:~$ echo "$shell"
+
+4- List all of the environment variables for the Bash shell : 
+
+![image](https://github.com/user-attachments/assets/3e909deb-01be-4391-a78a-6d409f86ce22)
+
+5- Edit your shell profile to display the date at login and change your prompt : 
+
+    Taghreed20@Ubuntu5:~$ sudo nano ~/.bashrc 
+    echo "Today is $(date)" 
+
+6-     
+        
+
 
 
