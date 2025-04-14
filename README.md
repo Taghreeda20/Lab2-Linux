@@ -29,7 +29,27 @@
     Taghreed20@Ubuntu5:~$ sudo nano ~/.bashrc 
     echo "Today is $(date)" 
 
-6-     
+6- Redirect the output of the ls command to a file called file_list.txt :      
+
+    Taghreed20@Ubuntu5:~$ ls ~/.bashrc > file_list.txt
+    
+7- Use file globbing to list all .txt files in the current directory : 
+
+    Taghreed20@Ubuntu5:~$ ls *.txt
+    file_list.txt
+
+8- Redirect the output of the ls command to a file and append it : 
+
+    Taghreed20@Ubuntu5:~$ ls >> file1
+
+9- Use a pipe to send the output of ls to the grep command to filter for files containing the word "report" : 
+
+    Taghreed20@Ubuntu5:~$ ls | grep report
+
+10- Use head to view the first 10 lines of a file, and tail to view the last 10 lines : 
+
+
+
         
 
 
