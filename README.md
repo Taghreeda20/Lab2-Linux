@@ -12,5 +12,9 @@
     /usr/bin/rbash
     /usr/bin/dash
 
-2-     
+2- List all of the environment variables in your current shell : 
+
+![image](https://github.com/user-attachments/assets/7d6523ec-d51f-4efc-8c49-1b41d74a2420)
+
+
 
