@@ -102,6 +102,27 @@
 
 16- Create a Bash alias named ls for the command ls -l :
 
+    Taghreed20@Ubuntu5:~$ alias ls='ls -l'
+
+17- Use sort to sort the output of ls -l by file size : 
+
+    Taghreed20@Ubuntu5:~$ ls -l | sort -k5 -n
+
+18- Use grep to count the number of lines that contain the word "success" in a file : 
+
+    Taghreed20@Ubuntu5:~$ grep -c "success" file_list.txt
+
+19- Redirect the output of the dmesg command to a file and view the first 20 lines using head : 
+
+    Taghreed20@Ubuntu5:~$ sudo dmesg > File.txt
+    [sudo] password for Taghreed20: 
+    Taghreed20@Ubuntu5:~$ head -20 File.txt
+
+20- Use cut to extract the first field from a CSV file and display it : 
+
+    Taghreed20@Ubuntu5:~$ cut -d',' -f1 csv
+
+
 
 
 
